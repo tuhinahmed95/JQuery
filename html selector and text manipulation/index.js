@@ -22,3 +22,15 @@
 //  $("a").attr("href")
 //  $("a").removeAttr("href");
 // $("a").attr("href","www.youtube.com");
+
+
+// use css method & use first property then value
+// $("h1").css("color","red");
+// $("h1").css("font-size","3rem");
+// $("h1").css("font-style","italic");
+
+
+// use css method & multiple property & multiple value use in one line // multiple class use & remove in one line
+// $("h1").css({"color":"green","font-size":"3rem","font-style":"italic"});
+// $("h1").addClass("class1 class2")
+// $("h1").removeClass("class1 class2")
