@@ -16,3 +16,8 @@
 // var para1 = $("<p></p>").text("this is a paragraph 0")
 //  $("#p1").after(para1)
 // $("#p1").before(para1)
+
+
+// attributes manipulation & attributes remove
+//  $("a").attr("href")
+//  $("a").removeAttr("href");
