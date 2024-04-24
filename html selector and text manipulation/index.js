@@ -18,6 +18,7 @@
 // $("#p1").before(para1)
 
 
-// attributes manipulation & attributes remove
+// attributes manipulation & attributes remove & set href
 //  $("a").attr("href")
 //  $("a").removeAttr("href");
+// $("a").attr("href","www.youtube.com");
