@@ -9,3 +9,10 @@
 
 // $("#para1").append(" this is append")
 // $("#para1").prepend(" this is prepend")
+
+
+// use after & before method
+
+// var para1 = $("<p></p>").text("this is a paragraph 0")
+//  $("#p1").after(para1)
+// $("#p1").before(para1)
