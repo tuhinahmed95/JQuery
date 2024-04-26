@@ -34,3 +34,11 @@
 // $("h1").css({"color":"green","font-size":"3rem","font-style":"italic"});
 // $("h1").addClass("class1 class2")
 // $("h1").removeClass("class1 class2")
+
+
+// add event listner 
+$("button").click(function (){ 
+    // $("h1").text("you have clicked the button")
+     $("h1").toggleClass("class1")
+
+})
