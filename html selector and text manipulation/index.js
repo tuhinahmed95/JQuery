@@ -44,8 +44,42 @@
 // })
 
 // multiple event listner add 
-$("button").click(function (){
-    var value = this.innerHTML;
-    $("h1").text(value + "is clicked") 
+// $("button").click(function (){
+//     var value = this.innerHTML;
+//     $("h1").text(value + "is clicked") 
+
+// })
+
+
+// login demo project
+
+$("#loginButton").click(function(){ 
+
+    var password1 = $("#pass1").val();
+    var password2 = $("#pass2").val();
+
+
+    if(password1 !== "" && password2 !== ""){ 
+
+
+        if(password1 == password2){ 
+            alert ("login succcesfully")
+        }
+
+        else{ 
+            alert("password mitchmatch")
+        }
+
+    }
+
+    else{ 
+        alert ("please enter password")
+
+    }
+
+
+
+
+
 
 })
