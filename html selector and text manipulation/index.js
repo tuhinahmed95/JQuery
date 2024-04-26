@@ -53,33 +53,61 @@
 
 // login demo project
 
-$("#loginButton").click(function(){ 
+// $("#loginButton").click(function(){ 
 
-    var password1 = $("#pass1").val();
-    var password2 = $("#pass2").val();
-
-
-    if(password1 !== "" && password2 !== ""){ 
+//     var password1 = $("#pass1").val();
+//     var password2 = $("#pass2").val();
 
 
-        if(password1 == password2){ 
-            alert ("login succcesfully")
-        }
-
-        else{ 
-            alert("password mitchmatch")
-        }
-
-    }
-
-    else{ 
-        alert ("please enter password")
-
-    }
+//     if(password1 !== "" && password2 !== ""){ 
 
 
+//         if(password1 == password2){ 
+//             alert ("login succcesfully")
+//         }
 
+//         else{ 
+//             alert("password mitchmatch")
+//         }
+
+//     }
+
+//     else{ 
+//         alert ("please enter password")
+
+//     }
+// })
 
 
 
-})
+// Animation hide,show & toggle method use
+// $("#btn").click(function(){ 
+//     $("#div1").hide(2000).show(2000);
+// })
+
+
+// Animation Fadein,FadeOut & fadeToggle,fadeTo method use
+// $("#btn").click(function(){ 
+//     $("#div1").fadeOut(2000).fadeIn(2000);
+// })
+
+
+
+// Animation slideUp,slideDown & slideToggle, method use
+// $("#btn").click(function(){ 
+//     $("#div1").slideUp(2000).slideDown(2000);
+// })
+
+
+
+// Animated
+// $("#btn").click(function(){ 
+//     $("#div1").animate(
+//         {
+//             height:"500px",
+//             width:"900px",
+//             margin:"30px"
+    
+    
+//         },2000);
+// })
