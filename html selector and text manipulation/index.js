@@ -37,8 +37,15 @@
 
 
 // add event listner 
-$("button").click(function (){ 
-    // $("h1").text("you have clicked the button")
-     $("h1").toggleClass("class1")
+// $("button").click(function (){ 
+//     // $("h1").text("you have clicked the button")
+//      $("h1").toggleClass("class1")
+
+// })
+
+// multiple event listner add 
+$("button").click(function (){
+    var value = this.innerHTML;
+    $("h1").text(value + "is clicked") 
 
 })
