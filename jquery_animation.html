@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>jQuery Animation</title>
+<style>
+    #square {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        position: absolute;
+    }
+</style>
+</head>
+<body>
+
+<div id="square"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        // Set initial position of the square
+        $('#square').css({left: '0px', top: '0px'});
+
+        // Animate the square
+        $('#square').animate({
+            left: '+=200px', // Move 200px to the right
+            top: '+=200px'   // Move 200px down
+        }, 2000); // Animation duration: 2000 milliseconds (2 seconds)
+    });
+</script>
+
+</body>
+</html>
